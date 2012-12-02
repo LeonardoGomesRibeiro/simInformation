@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SimCardInformationActivity"
+    android:orientation="vertical" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text="@string/app_name"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textStyle="bold" />
+		
+		<RelativeLayout
+		    android:id="@+id/relativeLayout"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#015488" >
+
+			<TextView
+			    android:id="@+id/deviceId"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_alignParentTop="true"
+			    android:layout_marginTop="80dp"
+			    android:text="@string/device_id" 
+			    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+			<TextView
+			    android:id="@+id/networkOperatorName"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_centerVertical="true"
+			    android:text="@string/network_operator_name"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/networkOperator"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_above="@+id/networkOperatorName"
+			    android:layout_alignParentLeft="true"
+			    android:text="@string/network_operator"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/serialNumber"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_above="@+id/networkOperator"
+			    android:layout_alignParentLeft="true"
+			    android:text="@string/serial_number"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/deviceSWVervion"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/networkOperatorName"
+			    android:text="@string/software_version"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/phoneNumber"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/deviceSWVervion"
+			    android:text="@string/phone_number"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/simCountry"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/phoneNumber"
+			    android:text="@string/sim_country"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+			
+		</RelativeLayout>
+
+</LinearLayout>

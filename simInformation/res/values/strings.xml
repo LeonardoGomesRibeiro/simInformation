@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sim Information</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    
+    <string name="device_id">Device ID:</string>
+    <string name="serial_number">Serial Number:</string>
+    <string name="network_operator">Network Operator:</string>
+    <string name="network_operator_name">Network Operator Name:</string>
+    <string name="software_version">Software Version:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="sim_country">SIM Country:</string>
+    
+</resources>
